@@ -9,12 +9,14 @@
 </head>
 
 <body>
-    <!-- Navigaatio-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">Brand Name</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="../icons/logo.png" class="me-2" style="width: 65px; height: 40px;">
+                <span class="fs-4">Kotkantien Maalaus ja Tapetointi</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -35,6 +37,10 @@
                         <a class="nav-link active" aria-current="page" href="contact_details.html">Contact Details</a>
                     </li>
                 </ul>
+                <form class="d-flex ms-lg-3 mt-3 mt-lg-0" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
             </div>
         </div>
     </nav>
